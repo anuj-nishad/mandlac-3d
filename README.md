@@ -60,6 +60,8 @@ src/
 
 ![MandlacX Edge Processor](./preview.png)
 
+🔗 **Live Demo:** [https://your-vercel-url.vercel.app](https://mandlac-3d.vercel.app/)
+
 ---
 
 ## 📌 Future Plans
