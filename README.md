@@ -1,12 +1,82 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧠 MandlacX Edge Processor — 3D Interactive Showcase
 
-Currently, two official plugins are available:
+A futuristic 3D product showcase for the **MandlacX Edge Processor**, an AI-powered edge surveillance device. Built using **React Three Fiber**, custom Blender modeling, and raw CSS, this project delivers a smooth and visually compelling experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎛️ **3D Model Integration** – Custom-designed in Blender and imported via `gltfjsx`
+- 🌐 **Real-time rendering** with `@react-three/fiber` and `@react-three/drei`
+- 💡 Dynamic lighting with ambient and directional lights
+- 🎨 Clean, minimalist layout using pure CSS
+- ⚙️ Modular React structure for scalability
+
+---
+
+## 🛠️ Tech Stack
+
+- **React**
+- **React Three Fiber**
+- **@react-three/drei**
+- **Blender** (3D modeling)
+- **GLTF JSX** (model conversion)
+- **CSS** (no frameworks)
+
+---
+
+## 📦 Installation
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/anujnishad/madnlac-3d.git
+cd mandlacx-edge-processor
+npm install
+npm run dev
+```
+
+> Make sure the GLB file is located in `public/models/smartSight.glb`
+
+---
+
+## 📁 Folder Structure
+
+```
+public/
+  models/
+    smartSight.glb       # Blender exported model
+src/
+  components/
+    SmartSight.jsx            # Auto-generated JSX model
+  App.jsx                # Main scene with Canvas + Lights + Info boxes
+  index.css              # Styling
+```
+
+---
+
+## 🖼️ Screenshot
+
+![MandlacX Edge Processor](./preview.png)
+
+---
+
+## 📌 Future Plans
+
+- 📱 Make it fully responsive
+- 📜 Add scroll-based animations (parallax / camera movement)
+- 🌍 Deploy to Vercel
+- 🎮 Add hover/interactive feedback
+
+---
+
+## 🪪 License
+
+MIT License — free to use, modify, and share.
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by [Anuj Nishad](https://github.com/anuj-nishad)
